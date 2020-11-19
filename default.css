@@ -10,10 +10,11 @@
     --themeDotBorder: #24292e;
 
     --previewBg: rgb(251, 249, 243, 0.8);
-
     --previewShadow: #f0ead6;
 
     --boxShadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+    --githubColor: #4078c0;
 
 }
 
@@ -264,8 +265,9 @@ h6 { font-size: 16px; }
     text-align: center;
 }
 
-#social_img {
-    width: 100%;
+.social-links .fab {
+    font-size: 200px;
+    color: var(--githubColor);
 }
 
 .post-wrapper {
