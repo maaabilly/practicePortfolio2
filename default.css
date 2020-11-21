@@ -16,6 +16,8 @@
 
     --githubColor: #4078c0;
 
+    --buttonColor: black;
+
 }
 
 html, body {
@@ -305,6 +307,41 @@ h6 { font-size: 16px; }
     color: #4b5156;
     font-size: 14px;
 }
+
+#contact-form {
+    display: block;
+    min-width: 600px;
+    margin: 0 auto;
+    border: 1px solid var(--borderColor);
+    padding: 16px;
+    border-radius: 5px;
+    background-color: var(--mainColor);
+    margin-bottom: 50px;
+}
+
+#contact-form label {
+    line-height: 2.7em;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+    font-size: 14px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: var(--buttonColor);
+    border: none;
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .main-container{width: 95%;}
