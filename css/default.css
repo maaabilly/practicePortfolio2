@@ -212,7 +212,6 @@ h6 { font-size: 16px; }
     display: grid;
     align-content: center;
     padding: 50px 0;
-
 }
 
 #preview-shadow {
@@ -368,5 +367,54 @@ h6 { font-size: 16px; }
     .right-column {
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 700px) {
+    #contact-form {
+        min-width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .greeting-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    h1, h2, h3, h4, h5, h6, strong {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    p, li, span, label, input, textarea {
+        font-size: .85rem;
+    }
+
+    .right-column {
+        padding-top: 0;
+    }
+
+    #preview-shadow {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 40px;
+    }
     
+    #preview {
+        width: 200px;
+        border: 1.5px solid #17a2b8;
+        background-color: var(--previewBg);
+        padding: 15px;
+        margin: 0 auto;
+   
+        position: relative;
+    }
+    
+    .post-wrapper {
+        padding: 15px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    #contact-form {
+        min-width: 80%;
+    }
 }
